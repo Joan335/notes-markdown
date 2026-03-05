@@ -1,6 +1,8 @@
 ---
 title: Apuntes de JavaScript
 description: Conceptos básicos de JS para principiantes
+id: nota1
+fecha: 5 mar 2026
 ---
 
 # Apuntes de JavaScript

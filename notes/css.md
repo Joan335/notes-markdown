@@ -1,6 +1,8 @@
 ---
 title: Apuntes de CSS
 description: Guía rápida de estilos y selectores
+id: nota2
+fecha: 6 mar 2026
 ---
 
 # Apuntes de CSS
