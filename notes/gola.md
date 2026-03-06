@@ -1,8 +1,8 @@
 ---
 title: Apuntes de JavaScript
-description: Conceptos básicos de JS para principiantes
+description: Este es mi espacio personal donde comparto ideas, apuntes y reflexiones en formato markdown.
 id: nota1
-fecha: 5 mar 2026
+date: 5 mar 2026
 ---
 
 # Apuntes de JavaScript
