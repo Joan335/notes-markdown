@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Personal</title>
+    <link rel="stylesheet" href="styles.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="left-side">
+            <h2>Notas</h2>
+            <p>Apuntes personales</p>
+        </div>
+        <div class="links-shift">
+            <a href="" class="home-link">INICIO</a>
+            <a href="" class="about-me-link">SOBRE MI</a>
+        </div>
+    </header>
+    <div class="notes">        
+    </div>
+    <div class="show-note">        
+    </div>
+    <div class="about-me">       
+    </div>
+    <template id="note-template">
+        <div class="note">
+            <a href="">
+                <div class="title-and-date">
+                    <h3></h3>
+                    <span></span>
+                </div>
+                <p></p>
+            </a>          
+        </div>
+    </template>
+    <template id="note-show-template">
+        <div class="title-and-date">
+            <h3></h3>
+            <span></span>
+        </div>
+        <div class="markdown-body">
+        </div>
+    </template>
+    <footer class="footer">
+        <p>Hecho con JS y Markdown</p>
+        <span>2026</span>
+    </footer>
+    <script type="module" src="notasMD.js"></script>
+</body>
+</html>
