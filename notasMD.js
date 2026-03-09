@@ -8,7 +8,7 @@ const d = document,
     $containerAboutMe = d.querySelector(".about-me");
 
 async function cargarVistaPreviaNotas() {
-    const urlCarpeta = "/.netlify/functions/function-server.js";
+    const urlCarpeta = "/.netlify/functions/function-server";
 
     try {
         // 1. Obtenemos la lista de archivos de la carpeta
