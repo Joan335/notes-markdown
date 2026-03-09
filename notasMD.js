@@ -8,15 +8,11 @@ const d = document,
     $containerAboutMe = d.querySelector(".about-me");
 
 async function cargarVistaPreviaNotas() {
-    const urlCarpeta = "https://api.github.com/repos/Joan335/notes-markdown/contents/notes/";
+    const urlCarpeta = "/.netlify/functions/function-server.js";
 
     try {
         // 1. Obtenemos la lista de archivos de la carpeta
-        const respuesta = await fetch(urlCarpeta, {
-            headers: {
-                'Authorization': `token ${process.env.TOKEN_API}`
-            }
-        });
+        const respuesta = await fetch(urlCarpeta);
         const archivos = await respuesta.json();
 
         // Filtramos para asegurarnos de que solo procesamos archivos .md
